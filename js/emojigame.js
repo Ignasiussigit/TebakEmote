@@ -116,7 +116,7 @@ playBtn.addEventListener('click', function () {
                         menu.innerHTML = `<h3>🥳 MENANG 🥳</h3>  <br>
                         <p>Main lagi yuk, sayang! ❤</p> <br>
                         <div class="button">
-                        <a class="endBtn" href="emojigame.html">OK</a>
+                        <a class="endBtn" href="index.html">OK</a>
                         </div>`;
                         return;
                     }
@@ -130,7 +130,7 @@ playBtn.addEventListener('click', function () {
                 menu.innerHTML = `<h3>KALAH</h3>
                 <p>Ayo coba lagi sayang! ❤</p>
                 <div class="button">
-                <a class="endBtn" href="emojigame.html">OK</a>
+                <a class="endBtn" href="index.html">OK</a>
                 </div>`;
                 return;
             }
