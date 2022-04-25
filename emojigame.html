@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebak Emoji</title>
+    <link rel="stylesheet" href="./css/emojigame.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <h1>
+                <span>SELAMAT DATANG <span id="nama" class="name"></span> </span> <br> DI GAME <br> TEBAK😚EMOJI
+            </h1>
+            <br>
+            <div class="mainbox">
+                <span class="boxSpan">
+                    <div class="menu">
+                        <h1>TEBAK EMOJI</h1>
+                        <button>PLAY</button>
+                    </div>
+                </span>
+                <div class="box">🗿</div>
+                <div class="box">🗿</div>
+                <div class="box">😘</div>
+                <div class="box">😘</div>
+                <div class="box">😑</div>
+                <div class="box">😑</div>
+                <div class="box">🥰</div>
+                <div class="box">🥰</div>
+                <div class="box">😯</div>
+                <div class="box">😯</div>
+                <div class="box">😪</div>
+                <div class="box">😪</div>
+                <div class="box">😫</div>
+                <div class="box">😫</div>
+                <div class="box">😴</div>
+                <div class="box">😴</div>
+            </div>
+            <div class="stopwatchltl">
+                <h2 class="timeleft"></h2>
+                <h3 class="timer"></h3>
+            </div>
+            <aside>
+                <div class="rules">
+                    <h2>PERATURAN</h2>
+                    <ol>
+                        <li>Game berlangsung selama 30 detik.</li>
+                        <li>Terdapat 2 emoji serupa yang ditempatkan secara acak.</li>
+                        <li>Cocokkan emoji yang serupa sebelum waktu permainan berakhir.</li>
+                    </ol>
+                </div>
+                <div class="stopwatch">
+                    <h2 class="timeleft"></h2>
+                    <h3 class="timer"></h3>
+                </div>
+            </aside>
+        </main>
+        <footer>
+            <small class="anim-text">&copy Copyright 2022. Ignasius.</small>
+        </footer>
+    </div>
+
+    <script src="./js/emojigame.js"></script>
+
+    <script>
+        var datang = prompt("Siapa Nama kamu? ")
+        alert("Halo " + datang)
+        document.getElementById("nama").innerHTML = datang;
+    </script>
+</body>
+
+</html>
+
+<!-- Ignasius -->
